@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SnackBar</string>
+	<string-array name="styles">
+	    <item>DEFAULT</item>
+	    <item>ALERT</item>
+	    <item>CONFIRM </item>
+	    <item>INFO</item>
+	</string-array>
+</resources>

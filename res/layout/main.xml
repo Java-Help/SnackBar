@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:id="@+id/etText"
+        android:text="Ваш текст"
+        >
+
+        <requestFocus />
+    </EditText>
+    <Spinner
+        android:id="@+id/spStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:visibility="gone"
+        android:entries="@array/styles"
+        />
+
+    <CheckBox
+        android:id="@+id/chbButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Включить кнопку"
+         />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать" 
+        />
+
+</LinearLayout>
